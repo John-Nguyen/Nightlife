@@ -1,0 +1,47 @@
+{
+  "name": "mapApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build:css": "postcss --use autoprefixer src/css/*.css -d css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/point-geometry": "^0.1.0",
+    "async-decorators": "^0.1.5",
+    "axios": "^0.16.1",
+    "faker": "^4.1.0",
+    "google-map-react": "^0.24.0",
+    "html-hint": "^0.2.4",
+    "immutable": "^3.8.1",
+    "react": "^15.5.4",
+    "react-addons": "^0.9.1-deprecated",
+    "react-controllable": "^0.1.1",
+    "react-controllables": "^0.6.0",
+    "react-dom": "^15.5.4",
+    "react-hint": "^1.3.1",
+    "react-http-request": "^1.0.3",
+    "react-perfect-scrollbar": "^0.2.0",
+    "react-prop-types": "^0.3.0",
+    "react-pure-render": "^1.0.2",
+    "react-responsive-carousel": "^3.1.15",
+    "react-router-dom": "^4.0.0-beta.8",
+    "react-svg": "^2.1.19",
+    "react-svg-loader": "^1.1.1",
+    "react-tooltip": "^3.3.0",
+    "redux": "^3.6.0",
+    "size-decorator": "0.0.1",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-es2015": "^6.0.15"
+  }
+}
