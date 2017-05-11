@@ -6,7 +6,11 @@ To run:
 Clone or Download/Unzip
 
 In the command prompt use
-'''npm start'''
+```
+npm start
+```
 
 Go to
-'''http://localhost:8080'''
+```
+http://localhost:8080
+```
